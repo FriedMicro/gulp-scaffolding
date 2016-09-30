@@ -3,7 +3,7 @@
 #Run me before creating git repo
 
 #Clone gulp script from git
-git clone https://github.com/FriedMicro/gulp-scaffolding
+git clone https://github.com/FriedMicro/gulp-scaffolding .
 
 #Create folders
 mkdir sass
