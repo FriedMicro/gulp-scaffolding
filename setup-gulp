@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+
+#Run me before creating git repo
+
+#Clone gulp script from git
+git clone https://github.com/FriedMicro/gulp-scaffolding
+
+#Create folders
+mkdir sass
+mkdir js
+mkdir dist
+mkdir html
+mkdir views
+
+#Create empty template files
+touch index.html
+touch index-dev.html
+
+#Install dependencies
+npm install
+
+#remove repo git history
+rm -rf .git

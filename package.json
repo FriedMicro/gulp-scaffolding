@@ -5,11 +5,19 @@
   "main": "gulpfile.js",
   "author": "your-name",
   "devDependencies": {
-    "gulp": "^3.9.0",
+    "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.0",
+    "gulp-clean": "^0.3.2",
     "gulp-concat": "^2.6.0",
-    "gulp-sass": "^2.1.0",
+    "gulp-filesize": "0.0.6",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-minify-html": "^1.0.6",
+    "gulp-ng-annotate": "^2.0.0",
+    "gulp-ng-html2js": "^0.2.2",
+    "gulp-notify": "^2.2.0",
+    "gulp-sass": "^2.3.2",
     "gulp-sourcemaps": "^1.6.0",
-    "gulp-uglify": "^1.5.1"
+    "gulp-uglify": "^1.5.4",
+    "gulp-wrap": "^0.13.0"
   }
 }
