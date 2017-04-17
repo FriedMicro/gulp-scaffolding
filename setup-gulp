@@ -21,3 +21,5 @@ npm install
 
 #remove repo git history
 rm -rf .git
+
+git init
